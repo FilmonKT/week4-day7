@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font: 15px/1.5 arial, helvetica, sans-serif;
+    background-color: skyblue;
+   
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    padding: 10px;
+    
+    background-color: #4c4c4c;
+    width: 100%;
+    min-height: 100px;
+    border-bottom: rgba(238, 13, 13, 0.89) 3px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+   font-weight: bold;
+   }
+header a:hover{
+    color: red;
+}
+header .special{
+    font-size: 30px;
+    color: red;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+}
+header li{
+    display: inline;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float: right;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+header .head{
+    float: left;
+    margin-top: 20px;
+    }
+header .head h1{
+    color: white;
+    font-size: 30px;
+   padding-bottom: 30px;
+   
+}
+#topic{
+    
+    min-height: 80px;
+    color: black;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: red 3px solid;
+    margin: 0;
+    padding-bottom: 10;
+    
+}    
+
+#topic .carlogo{
+   
+    width: 160px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    padding-top: 5px;
+}
+#topic .carlogo img{
+    width: 130px;
+    height: 100px;
+   padding-left: 100px;
+    
+    }
+ #topic h1{
+    float: right;
+    padding-top: 20px;
+    }   
+    #topic head h2{
+        float: right;
+        padding-top: 20px;
+        margin-top: 20px;
+        }     
+    
+.italy{
+    color: red;
+}
+
+#leftside{
+    float: left;
+    width: 20%;
+    height: 350px;
+    background-color: #4c4c4c;
+    color: white;
+    padding: 10px 20px 0 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#leftside h1{
+    text-align: center;
+}
+#rightside {
+   border-bottom: red 3px solid;
+   border-top: red 3px solid;
+    float: right;
+    width:70%;
+    height: 358px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #dddddd;
+}
+#contactside {
+    
+     float: right;
+     width:70%;
+     height: 358px;
+     margin-right: 20px;
+     margin-top: 20px;
+     
+ }
+ #contactside form{
+     margin-left:150px; 
+     margin-top: 30px;
+ }
+ #contactside form p{
+    margin-left:100px; 
+    font-size: 25px;
+    }
+ #contactside input[type="text"]{
+     width: 200px;
+     height: 22px;
+     padding: 4px;
+     margin: 10px;
+ }
+ #contactside input[type="email"]{
+    width: 200px;
+    height: 22px;
+    padding: 4px;
+    margin: 10px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {
+        margin-left:150px; 
+        margin-top: 30px;
+    }
+
+#rights{
+    border-bottom: red 3px solid;
+    border-top: red 3px solid;
+     float: right;
+     width:70%;
+     height: 200px;
+     margin-right: 20px;
+     margin-top: 100px;
+     
+}
+#rights h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+#rights {
+    font-size: 20px;
+    text-align: center;
+   
+}
+#rightside img{
+    height: 350px;
+    width: 100%;
+    margin: 20px;
+}
+#rightside .yaris{
+    float: left;
+    width: 50%;
+    height: 320px;
+    padding-bottom: 10px;
+}
+#rightside .yaris img{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 330px;
+}
+#rightside .para{
+    float: right;
+    width: 45%;
+    height: 330px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding: 25px 10px 0 10px;
+}
+#rightside .para p{
+    font-size: 20px;
+}
+#leftservice{
+    
+    width: 100%;
+    height: 440px;
+    text-align: center;
+    color: black;
+    padding: 10px 20px 0 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#rightservice {
+    float: right;
+    width:100%;
+    height: 450px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    padding: 10px 20px 0 20px;
+}
+#leftservice .yaris img{
+    float: left;
+    width: 50%;
+    height: 350px;
+    margin-top: 10px;
+}
+#rightservice .yaris img{
+    float: right;
+    margin-right: 10px;
+    width: 50%;
+    height: 350px;
+    margin-left: 20px;
+    
+}
+#leftservice .para{
+    float: right;
+    width: 30%;
+    margin-top: 100px;
+    height: auto;
+    text-align: center;
+    padding:20px 10px 0 10px;
+    border-bottom: #dddddd 3px solid;
+    border-top: #dddddd 3px solid;
+    margin-right: 100px;
+}
+#rightservice .para{
+   float: left;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding:20px 10px 0 10px;
+    border-bottom: #dddddd 3px solid;
+    border-top: #dddddd 3px solid;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#rightservice .para p, #leftservice .para p{
+    font-size: 18px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    min-height: 80px;
+    background-color: red;
+    color: #dddddd;
+    margin: 0;
+}
+footer p{
+    text-align: center;
+   font-size: 18px;
+   padding-top: 20px;
+}
+#info{
+    margin-top: 30px;
+     width: 100%;
+    min-height: 190px;
+    background-color: #4c4c4c;
+    margin-bottom:  0;
+    padding: 10px;
+    
+}
+#info .fili{
+    width: 20%;
+    height: 170px;
+    color: aliceblue;
+    margin: 20px;
+    float: left;
+    padding-top: 
+    padding-bottom: 10px;
+    margin-left: 110px;
+}
+#info .fili h2{
+   border-top: #d3d3d3 1px solid;
+   border-bottom:#d3d3d3 1px solid;
+   text-align: center;
+
+}
+#info .fili p{
+    text-align: center;
+    padding: 3px;
+ }
+
+
+
+
